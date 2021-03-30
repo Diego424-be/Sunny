@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sunny side</title>
+
+    <style>
+        .galeria {
+            height: calc(300px + 3em);
+            width: 460px;
+            margin: 1em auto;
+            border: 1px solid #555;
+            position: inherit;
+        }
+
+        .galeria img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 3s;
+        }
+
+        .galeria input[type=radio] {
+            position: relative;
+            bottom: calc(-300px - 1.5em);
+            left: .5em;
+        }
+
+        .galeria input[type=radio]:nth-of-type(1):checked~img:nth-of-type(1) {
+            opacity: 1;
+        }
+
+        .galeria input[type=radio]:nth-of-type(2):checked~img:nth-of-type(2) {
+            opacity: 1;
+        }
+
+        .galeria input[type=radio]:nth-of-type(3):checked~img:nth-of-type(3) {
+            opacity: 1;
+        }
+
+        .galeria input[type=radio]:nth-of-type(4):checked~img:nth-of-type(4) {
+            opacity: 1;
+        }
+
+        .galeria input[type=radio]:nth-of-type(5):checked~img:nth-of-type(5) {
+            opacity: 1;
+        }
+    </style>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"
+        type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Sunny side</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="about.html">Acerca del productos</a>
+                    </li>
+                    <li>
+                        <a href="post.html">¿Quienes somos?</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/about-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>Bike System</h1>
+                        <hr class="small">
+                        <span class="subheading">"La mejor bicicleta a tu disposicion"</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Nuestro producto cuenta con paneles solares sobre las ruedas y el motor que tiene incluido la
+                    bicicleta, Además de contar con un sistema operativo creado por nosotros llamado Sun Systems esto es
+                    para que atreves del software funcione con energía solar y realice funciones como : pin de seguridad
+                    para evitar el robo de la bicicleta, un asistente virtual , conexión wifi(con 4G), no hay riesgo de
+                    que puedan robar la señal del wifi porque cuenta con clave de seguridad propia del producto, GPS y
+                    se puede desdoblar para que sea más práctico de transportar.</p>
+
+                <p>Las bicicletas de Bike System utilizaran un motor para asistir al pedaleo, no para sustituirlo. El
+                    modelo más común es un sensor en los pedales que detecta la fuerza que hace el ciclista y ayuda
+                    proporcionalmente. Este motor para automáticamente cuando el ciclista aprieta el freno o cuando
+                    alcance cierta velocidad.</p>
+
+                <h2>Ventajas</h2>
+                <ul>
+                    <li>Facilitan pedalear en subidas</li>
+                    <li>Asistencia para quienes padecen de las articulaciones o asma</li>
+                    <li>Son mas faciles de pedalear por lo que puede alentar a nuevos ciclistas</li>
+                </ul>
+                <h2>Desventajas</h2>
+                <ul>
+                    <li>Son mas costosas que las bicicletas convencionales</li>
+                    <li>El equipo requiere de atención a especializados en el producto para poder arreglarla</li>
+                    <li>Son mas pesadas</li>
+                </ul>
+                <p>Las ideales de nuestras bicicletas son su capacidad de mejorar tu eficiencia al subir pendientes o al pedalear en
+                    contra del viento (sí, en algunas partes el viento es muy fuerte). Es una muy buena opción para los que aman la bici
+                    pero que por cuestiones de salud se les dificulta pedalear en una bicicleta convencional</p>
+                
+                    <h2>¿Porque decidimos lanzar este producto al mercado?</h2>
+                
+                    <p>Decidimos hacer este producto por las problemáticas que se vive aquí en México que es el medio de transporte, para
+                    que las personas puedan moverse de un lado a otro</p>
+                
+                    <p>Además de funcionar con energía solar para hacer más practico su uso y ahorro de energía, por otra parte, su precio
+                    es de unos $15, 000 y se encuentra disponible ya en el mercado</p>
+                
+                    <div class="galeria">
+                    <input type="radio" name="navegacion" id="_1" checked>
+                    <input type="radio" name="navegacion" id="_2">
+                    <input type="radio" name="navegacion" id="_3">
+                    <input type="radio" name="navegacion" id="_4">
+                    <input type="radio" name="navegacion" id="_5">
+                    <img src="C:\Users\Diego\Desktop\Sunny Side\img\1.jpg" width="460" height="300" />
+                    <img src="C:\Users\Diego\Desktop\Sunny Side\img\2.jpg" width="460" height="300" />
+                    <img src="C:\Users\Diego\Desktop\Sunny Side\img\3.jpg" width="460" height="300" />
+                    <img src="C:\Users\Diego\Desktop\Sunny Side\img\4.jpg" width="460" height="300" />
+                    <img src="C:\Users\Diego\Desktop\Sunny Side\img\5.jpg" width="460" height="300" />
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
